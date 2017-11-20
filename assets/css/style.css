@@ -1,0 +1,106 @@
+body {
+    background-image: url("../../assets/images/circles.png");
+}
+
+
+
+/*Index 2 styling of HTML Masterhead, Nav, and Logo elements*/
+
+
+#masterhead {
+  background: #fff;
+  height: 70px;
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+  color: #fff;
+  margin: 0 0 30px;
+  z-index: 99;
+}
+
+#logo {
+  width: 250px;
+  height: 69px;
+  background: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  line-height: 70px;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  border-left: 1px solid #efefef;
+  color: black;
+  font-size: 16px;
+  line-height: 70px;
+  text-decoration: none;
+  display: inline;
+  padding-left: 15px;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+/*Index 3 styling of HTML Main-section elements that include
+Aboutme, Connect With Me */
+
+#main-container {
+  padding-top: 20px;
+}
+
+.main-section {
+  background: #fff;
+}
+
+.gabepic {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: : 20px;
+}
+/*.sidebar {
+  background: #fff;
+  width: 100%;
+  max-width: 270px;
+  border: 1px solid #ddd;
+  padding: 30px;
+  float: right;
+}*/
+
+.sidebar h2, h3 {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.connect_icons {
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+}
+
+
+/*Index 4 styling of HTML Footer styles */
+footer {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  float: left;
+}
+
+.foot-container {
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 0;
+}
