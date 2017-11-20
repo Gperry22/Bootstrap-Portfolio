@@ -44,9 +44,6 @@ h2, h3 {
 }
 
 
-
-
-
 /*Index 2 styling of HTML Masterhead, Nav, and Logo elements*/
 
 
@@ -109,7 +106,6 @@ Aboutme, Connect With Me */
     overflow: auto;
 }
 
-
 .gpbgcolor {
   background: #fff;
 }
@@ -120,7 +116,6 @@ Aboutme, Connect With Me */
   float: left;
   margin-left: : 20px;
 }
-
 
 .sidebar {
   width: 100%;
@@ -142,20 +137,24 @@ Aboutme, Connect With Me */
 }
 
 /*Index 4 styling of HTML Footer styles */
-footer {
-  height: 70px;
+
+.empty {
+  margin-top: 100px;
   width: 100%;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  float: left;
 }
 
 .foot-container {
   background: #666;
+  width: 100%;
+  margin: 0,auto;
   border-top: 8px solid #4aaaa5;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   padding: 15px 0;
+  position: absolute;
+
 }
 
 .clearfix::after {
@@ -205,19 +204,18 @@ input[type=submit] {
 
 /*Index 5 styling of HTML Main-section2 elements that include
 Portfolio styles */
-
-
 .main-content2 {
   width: 100%;
   height: 550px;
   max-width: 670px;
-  padding: 10px;
+  padding: 5px;
     overflow: auto;
 }
 
 .main-content2 img {
-  height: 200px;
+  height: 180px;
   width: 200px;
+
 }
 
 figure {
