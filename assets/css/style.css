@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background-image: url("../../assets/images/circles.png");
+  background-image: url("../../assets/images/greywall.png");
   background-repeat: repeat;
   background-attachment: scroll;
 }
@@ -43,7 +43,6 @@ h1 {
 
 h2, h3 {
   font-size: 22px;
-
 }
 
 .padding {
@@ -51,8 +50,7 @@ h2, h3 {
 }
 
 .gpbgcolor {
-  background: #fff;
-}
+  background-image: url("../../assets/images/gray_jean.png");}
 
 .gp-navbar-brand {
   width: 250px;
@@ -75,6 +73,7 @@ nav a:hover {
   margin-bottom: 30px;
   border-bottom: 3px solid #ddd;
 }
+
 .navbar {
   padding-top: 0px !important;
   padding-bottom:  0px !important;
@@ -94,7 +93,9 @@ Aboutme, Connect With Me */
   max-height: 300px;
   float: left;
 }
+
 .sidebar {
+  background-image: url("../../assets/images/gray_jean.png");
   height: 200px;
   width: auto
   padding: 15px;
@@ -140,17 +141,6 @@ Aboutme, Connect With Me */
   padding-left: 10px;
 }
 
-
-/*input[type=submit] {
-  background: #4aaaa5;
-  border: 0 none;
-  border-radius: 75px;
-  color: #fff;
-  font-size: 18px;
-  padding: 10px 30px;
-  margin-top: 10px;
-  cursor: pointer;
-}*/
 
 
 /*Index 5 styling of HTML Main-section2 elements that include
